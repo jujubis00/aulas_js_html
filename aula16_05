@@ -36,3 +36,31 @@ function PerguntaEndereco(){
         document.write (`seu endereco é ${endereco}`) 
 }
 PerguntaEndereco()
+
+
+-------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="images.png"
+    onMouseOver="images.jpg(this)"
+    onMouseOut="vermelho.png(this)" />
+
+    <form>
+        letra maiúscula: <br/>
+        <textarea name="letra" onKeyUp="maiuscula(this)">
+        </textarea>
+    </form>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
+-----------------------------------------------------------
