@@ -1,0 +1,38 @@
+function mostrarsituacao(media){
+    if(media >= 7){
+        alert('você foi aprovado');
+    }else{
+        alert('você foi reprovado ;(');
+    }
+}
+ mostrarsituacao(8)
+
+
+----------------------------
+ function confirma(){
+    resposta = confirma('dê ok para confirmar')
+    if(resposta==1){
+        return true 
+    }else{
+        return false
+    }
+ }
+  confirma()
+
+-----------------------------
+
+function EntradaDeDados(){
+    nome= prompt('digite seu nome: ')
+    return nome
+}
+EntradaDeDados()
+
+function PerguntaEndereco(){
+    do{
+        endereco = prompt('digite seu endereço: ')
+        confirma = confirm(`seu endereço é ${endereco} ?`)
+    }while(!confirma)
+        alert('o endereço será exibido na página...')
+        document.write (`seu endereco é ${endereco}`) 
+}
+PerguntaEndereco()
